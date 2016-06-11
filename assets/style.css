@@ -1,0 +1,170 @@
+.breadBoxBottom,.breadBoxTop {
+    padding: 10px 0;
+    overflow: hidden;
+    zoom:1;clear: both;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.breadBoxTop .topCtrl {
+    margin-left: 5px;
+    float: right;
+    line-height: 24px
+}
+
+.breadcrumb {
+    font-size: 11px;
+    background-repeat: repeat-x;
+    background-position: top;
+    border: 1px solid #cacaca;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -khtml-border-radius: 0;
+    border-radius: 0;
+    overflow: hidden;
+    zoom:1;height: 24px
+}
+
+.breadcrumb.showAll {
+    height: auto
+}
+
+.breadcrumb .crust {
+    display: block;
+    float: left;
+    position: relative;
+    zoom:1;max-width: 50%
+}
+
+.breadcrumb .crust a.crumb {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #fafafa;
+    padding: 0 10px 0 18px;
+    margin-bottom: -1px;
+    border-bottom: 1px solid #cacaca;
+    outline: 0;
+    -moz-outline-style: 0 none;
+    display: block;
+    line-height: 24px;
+}
+
+.breadcrumb .crust a.crumb>span {
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%
+}
+
+.breadcrumb .crust .arrow {
+    border: 12px solid transparent;
+    border-right: 1px none #000;
+    border-left-color: #cacaca;
+    -moz-border-right-colors: #cacaca;
+    display: block;
+    position: absolute;
+    right: -12px;
+    top: 0;
+    z-index: 50;
+    width: 0;
+    height: 0
+}
+
+.breadcrumb .crust .arrow span {
+    border: 12px solid transparent;
+    border-right: 1px none #000;
+    display: block;
+    position: absolute;
+    left: -13px;
+    top: -12px;
+    z-index: 51;
+    white-space: nowrap;
+    overflow: hidden;
+    text-indent: 9999px;
+    width: 0;
+    height: 0
+}
+
+
+.breadcrumb .jumpMenuTrigger {
+    background-color: transparent;
+    margin: 10px 10px 10px 5px;
+    display: block;
+    float: right;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 13px;
+    height: 13px
+}
+
+.navTabs .publicTabs,.xbnavLogo {
+    float: left
+}
+
+@media (max-width: 480px) {
+    .Responsive .breadBoxTop.withTopCtrl {
+        display:table;
+        table-layout: fixed;
+        width: 100%
+    }
+
+    .Responsive .breadBoxTop.withTopCtrl nav {
+        display: table-header-group
+    }
+
+    .Responsive .breadBoxTop.withTopCtrl .topCtrl {
+        display: table-footer-group;
+        margin-top: 5px;
+        text-align: right
+    }
+}
+
+/* MAGICAL WONDERFUL BREADCRUMB */
+
+ .breadcrumb .crust .arrow
+{
+	right: -12px;
+}
+
+.breadcrumb .crust a.crumb, .breadcrumb .crust > a
+{
+	cursor: pointer;
+	text-decoration: none;
+	padding: 0 10px 0 18px;
+	margin-bottom: -1px;
+	border-bottom: 1px solid rgb(202, 202, 202);
+	outline: 0 none;
+	-moz-outline-style: 0 none;
+	display: block;
+}
+.breadcrumb .crust:hover a.crumb, .breadcrumb .crust:hover > a {
+    background-color: rgb(230, 230, 230);
+}
+
+ .breadcrumb.showAll
+{
+	height: auto;
+}
+.breadBoxTop,
+.breadBoxBottom
+{
+	padding: 10px 0;
+overflow: hidden;
+zoom: 1;
+clear: both;
+-webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box;
+
+}
+
+.breadBoxTop
+{
+}
+
+.breadBoxTop .topCtrl
+{
+	margin-left: 5px;
+float: right;
+line-height: 24px;
+}
