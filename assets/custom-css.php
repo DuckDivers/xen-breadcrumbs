@@ -35,11 +35,11 @@
 			background-color: <?php echo get_option('xen_trail_color'); ?>;
             line-height: <?php echo $lineheight ?>px;
             }
-        .breadcrumb .crust:hover a.crumb , .breadcrumb .crust.homeCrumb:hover .arrow span {
+        .breadcrumb .crust:hover a.crumb , {
             background-color: <?php echo get_option('xen_hover_color'); ?>;
         }
         
-        .breadcrumb .crust:hover .arrow span {
+        .breadcrumb .crust:hover .arrow span, .breadcrumb .crust.homeCrumb:hover .arrow span {
             border-left-color: <?php echo get_option('xen_hover_color'); ?>;
         }
       .breadcrumb .crust .arrow,  .breadcrumb .crust .arrow span
