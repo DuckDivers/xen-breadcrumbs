@@ -1,6 +1,6 @@
 <?php
 /*
-  Plugin Name: Xenforo Style Breadcrumbs
+  Plugin Name: Xen Breadcrumbs
   Plugin URI: https://www.duckdiverllc.com/
   Version: 1.3.4
   Author: Howard Ehrenberg
