@@ -35,7 +35,7 @@
 			background-color: <?php echo get_option('xen_trail_color'); ?>;
             line-height: <?php echo $lineheight ?>px;
             }
-        .breadcrumb .crust:hover .arrow span, .breadcrumb .crust.homeCrumb:hover .arrow span {
+        .breadcrumb .crust:hover a.crumb , .breadcrumb .crust.homeCrumb:hover .arrow span {
             background-color: <?php echo get_option('xen_hover_color'); ?>;
         }
         
