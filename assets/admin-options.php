@@ -136,7 +136,7 @@ function xenbreadcrumbs_options_page() {
         <td style="padding:5px 10px;font-family:Verdana, Geneva, sans-serif;color:#666; border-top: 1px solid #666;"><label for="xen_custom_css">
           <p>Enter Any Additional Custom CSS Below</p>
           <p>
-            <textarea rows="10" cols="50" name="xen_custom_css"><?php echo get_option('xen_custom_css');?></textarea>
+            <textarea rows="10" cols="50" name="xen_custom_css" style="margin-left: 10px;"><?php echo get_option('xen_custom_css');?></textarea>
           </p>
           </label></td>
       </tr>
