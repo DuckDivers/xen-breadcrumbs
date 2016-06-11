@@ -2,7 +2,7 @@
 /*
   Plugin Name: Xen Breadcrumbs
   Plugin URI: https://www.duckdiverllc.com/
-  Version: 1.3.4
+  Version:1.3.4
   Author: Howard Ehrenberg
   Author URI: http://www.howardehrenberg.com
   Description: A plugin to have Xenforo Style breadcrumbs on your wordpress site.  Works well if you're matching a wordpress theme to a Xenforo theme.  Option to include or exclude current page.
