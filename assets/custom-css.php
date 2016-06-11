@@ -27,7 +27,7 @@
             background-color: <?php echo get_option('xen_trail_color'); ?>;
             padding-left: 10px;
         }
-     .breadcrumb .crust .arrow span {
+     .breadcrumb .crust .arrow span, .breadcrumb .crust.homeCrumb:last-child .arrow span {
      		 border-left-color: <?php echo get_option('xen_trail_color'); ?>;
     		-moz-border-right-colors: <?php echo get_option('xen_trail_color'); ?>;
         }   
